@@ -1,0 +1,93 @@
+#start{
+    position: absolute;
+    left: 40%;
+    height: 20%;
+    width: 20%;
+}
+.tabla {
+    width: 50%;
+    height: 125%;
+    background-color: black;
+    border: solid black 1px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 10%;
+    background-color: gray;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+.items{
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    position: absolute; 
+    justify-content: space-between;
+}
+.start{
+    width: 20%;
+    height: 50%;
+    background-color: lightblue;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    width: 20%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.obstacles{
+    width: 20%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.waypoints{
+    width: 20%;
+    height: 50%;
+    background-color: yellow;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.penalization {
+    width: 20%;
+    height: 50%;
+    background-color: orange;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
