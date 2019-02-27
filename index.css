@@ -1,9 +1,8 @@
 #start{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 10%;
-    width: 10%;
+    left: 0;
+    height: 20%;
+    width: 20%;
 }
 .tabla {
     width: 50%;
